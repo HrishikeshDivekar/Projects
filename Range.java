@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Range{
-    public static  int[] range(int start,int end,int jumper){
+    public static  int[] range(int start,int end,int jumper){ //    Three Arguments
         ArrayList<Integer> ar = new ArrayList<>();
         if(start<end && jumper>0){
                 for (int i = start; i < end; i += jumper) {
