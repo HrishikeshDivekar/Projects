@@ -32,7 +32,7 @@ public class Range{
                 arr[p] = i;
             }
         }
-        if(start>end){
+        if(start>end){ 
             for (int i = start, p = 0; i > end; i--, p++) {
                 arr[p] = i;
             }
