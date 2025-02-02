@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            background: url(bg.jpg);
+            display: flex;
+            justify-content: center; /* Horizontally center the container */
+            align-items: center; /* Vertically center the container */
+            min-height: 100vh; /* Ensure full viewport height */
+            margin: 0;
+            padding-left:  100px;
+            padding-right: 100px;
+        }
+        input{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        #save{
+            background: linear-gradient(90deg, gray 0%, white 50%, grey 100%);
+            border: 1px solid rgb(221, 221, 221);
+            
+        }
+
+        #dash{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(255, 102, 0) 0%, rgb(255, 196, 0) 100%);
+            border: 1px solid orange;
+            color: wheat;
+        }
+
+        #save:hover,#dash:hover{
+            transform: scale(1.1);
+        }
+
+        img{
+            width: 150px;
+            border-radius: 1000px;
+            border: 4px groove rgb(207, 207, 207);
+        }
+        h1{
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        p{
+            font-weight: 500;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+    <img src="self.jpg">
+    <h1>Hrishikesh B. V. Divekar</h1>
+    <hr>
+    <!-- <p id="hr"><b>_____________________________________________________________________________________________________________________________________________</b></p> -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit accusamus inventore blanditiis provident ex voluptatum, officia corporis quos corrupti laboriosam, eligendi, nesciunt consequatur nulla fugiat unde odit praesentium dignissimos soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quibusdam reprehenderit incidunt dolore repellat! Molestias quaerat, voluptas accusantium veritatis blanditiis odio facere in deleniti esse sunt similique, nemo corrupti itaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, molestiae voluptates. Porro neque fugit amet dicta officia. Voluptatibus, officia exercitationem. Laudantium culpa vel eligendi tempora harum sed doloribus quae hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptate cum nulla dignissimos illum aperiam cupiditate omnis earum pariatur praesentium. Maiores at repudiandae rerum harum delectus amet illum, beatae nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo eum soluta vero pariatur. Quisquam, aspernatur repellendus? Ipsam, sed aut veniam incidunt inventore nam ad dolores hic, consectetur temporibus quis.</p>
+    <br>
+    <a href="reg.php"><input type="button" value="Save Data" id="save"></a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="dashboard.php"><input type="button" value="Dashboard" id="dash"></a>
+    </div>
+</body>
+</html>
